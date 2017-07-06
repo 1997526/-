@@ -1,0 +1,275 @@
+@charset "utf-8";
+
+/*重置样式*/
+*{
+	margin:0;
+	padding:0;
+}
+li{
+	list-style: none;
+}
+html,body{
+	height:100%;
+	background-color: black;
+}
+
+.hide{display: none;}
+/*公共部分样式*/
+#wrap{
+	width: 100%;
+	height: 100%;
+	max-width:6.4rem;
+	min-width: 3.2rem;
+	margin:0 auto;
+	position: relative;
+	overflow: hidden;
+}
+.main{
+	height: 100%;
+	position: relative;
+}
+.page{	
+	width: 100%;
+	height:100%;
+	margin:0 auto;
+	/*border:1px solid red;*/
+	position:absolute;left:0;top:0;z-index:99;
+	transition:all 1s ease;
+}
+
+.page_1{background:url(../images/80.jpg) 0 0 no-repeat;background-size:100% 100%; }
+.page_2{background:url(../images/true.jpg) 0 0 no-repeat;background-size:100% 100%;}
+.page_3{background:url(../images/5.jpg) 0 0 no-repeat;background-size:100% 100%;}
+.page_4{background:url(../images/78.jpg) 0 0 no-repeat;background-size:100% 100%;}
+.page_5{background:url(../images/10.jpg) 0 0 no-repeat;background-size:100% 100%;}
+/*无限循环*/
+.infinite{animation-iteration-count:infinite;}
+/*延迟时间*/
+.delay-time9{animation-delay:1s;}
+.delay-time10{animation-delay:3s;}
+.delay-time11{animation-delay:5s;}
+.delay-time12{animation-delay:7s;}
+.delay-time13{animation-delay:8s;}
+.delay-time{animation-delay:2s;}
+.delay-time1{animation-delay:2s;}
+.delay-time2{animation-delay:3s;}
+.delay-time3{animation-delay:5s;}
+.delay-time4{animation-delay:6s;}
+.delay-time5{animation-delay:7s;}
+.delay-time6{animation-delay:2s;}
+.delay-time7{animation-delay:3s;}
+.delay-time8{animation-delay:4s;}
+.delay-time14{animation-delay:2s;}
+
+
+
+/*page页在屏幕下面*/
+.pageDown{transform:translateY(100%);} 
+/*page页在屏幕上面*/
+.pageUp{transform:translateY(-100%);} 
+/*音乐按钮样式*/
+.music_btn{
+	width: 0.44rem;
+	height: 0.44rem;
+	background:url(../images/music.png) center center no-repeat;
+	position: fixed;
+	top:0.15rem;
+	right:0.5rem;
+	z-index: 100;
+}
+/*提示箭头样式*/
+.arrow{
+	width: 86px;
+	height:66px;
+	background-color:transparent;
+	position: fixed;
+	bottom:10px;
+	left:46%;
+	z-index:100;
+}
+/*第一页样式*/
+.page_1{
+	position: relative;
+}
+.page_1 .p1{
+	color: blue;
+	font-weight: bold;
+	font-size: 0.19rem;
+    position:absolute;
+    top: 50%;
+    left: 75%;
+
+}
+.page_1 .p2{
+	color: red;
+	font-weight: bold;
+	font-size: 0.19rem;
+    position: absolute;
+    top: 54%;
+    left: 75%;
+
+}
+.page_1 .p3{
+	color: lime;
+	font-weight: bold;
+	font-size: 0.19rem;
+    position: absolute;
+    top: 58%;
+    left: 75%;
+
+}
+.page_1 .p4{
+	color: orange;
+	font-weight: bold;
+	font-size: 0.19rem;
+    position:absolute;
+    top: 62%;
+    left: 75%;
+
+}
+/*第二页的样式*/
+.page_2 h1{
+	letter-spacing:0.1rem;
+	color: #bb5e00;
+	font-size: 0.5rem;
+	text-align: center;
+	margin-top: 0.3rem;
+}
+.page_2 img{
+	display: block;
+	width: 30%;
+	height:30%;
+	border-radius:60%;
+	margin:0.2rem auto;
+}
+.page_2 p{
+	font-size: 0.2rem;
+	font-weight: bold;
+	text-align:center;
+	line-height: 0.45rem;
+}
+.page_2 p:nth-child(2){
+	color:lime;
+}
+.page_2 p:nth-child(3){
+	color:pink;
+}
+.page_2 p:nth-child(4){
+	color:lime;
+}
+.page_2 p:nth-child(5){
+	color:orange;
+}
+.page_2 p:nth-child(6){
+	color:blue;
+}
+.page_2 p:nth-child(7){
+	color:purple;
+}
+/*第三页*/
+.page_3 .h-1{
+	letter-spacing:0.1rem;
+	color: blue;
+	font-size: 0.4rem;
+   text-align: center;
+   margin-top: 0.8rem;
+}
+.page_3 .h-2{
+	letter-spacing:0.1rem;
+	color: orange;
+	font-size: 0.4rem;
+   text-align: center;
+}
+.page_3 img{
+	float: left;
+	width: 2.9rem;
+    height: 2rem;
+    margin-left: 0.2rem;
+}
+/*第四页*/
+.page_4 h1{
+	color: purple;
+	letter-spacing:0.1rem;
+	font-style: italic;
+	font-size: 0.5rem;
+	text-align: center;
+	line-height: 2rem;
+}
+.page_4 img{
+	width: 2rem;
+	height: 2rem;
+	position: absolute;
+	top:3rem;
+	left:3rem;
+}
+.page_4 strong{
+	font-style: italic;
+	font-size: 0.7rem;
+	color: purple;
+}
+.page_4 .p7{
+	color: blue;
+    font-size: 0.5rem;
+    position: absolute;
+    top:2rem;
+    left:1rem;
+}
+.page_4 .p8{
+	color: pink;
+	position: absolute;
+	top:3rem;
+    left:1rem;
+
+}
+.page_4 .p9{
+	color: orange;
+    font-size: 0.5rem;
+    position: absolute;
+    top:5rem;
+    left: 1rem;
+}
+.page_4 .p10{
+	color: lime;
+    font-size: 0.5rem;
+    transform:rotate(-37deg); 
+    position: absolute;
+     top: 3.2rem;
+    left: 5.5rem;
+}
+/*第五页*/
+.page_5 h1{
+	font-style: italic;
+	letter-spacing:0.1rem;
+	color: blue;
+	font-size: 0.5rem;
+	text-align: center;
+	margin-top: 0.2rem;
+}
+.page_5 .box{
+    width: 6.2rem;
+    height: 1.25rem;
+    font-size:0.2rem;
+    border-radius: 1rem;
+    line-height: 0.4rem;
+    background-color: white;   
+    margin: 0.2rem auto;
+    position: relative;
+}
+.page_5 .box1 p{
+	color: pink;
+	position: absolute;
+	top:20%;
+    left: 10%;
+}
+.page_5 .box2 p{
+	color: lime;
+	position: absolute;
+	top:20%;
+    left: 10%;
+}
+.page_5 .box3 p{
+	color: purple;
+	position: absolute;
+	top:20%;
+    left: 10%;
+}
