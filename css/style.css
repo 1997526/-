@@ -179,7 +179,7 @@ html,body{
 	color: orange;
 	font-size: 0.4rem;
         text-align: center;
-	margin-top:1rem;
+	margin-top:1.5rem;
 }
 .page_3 img{
 	float: left;
@@ -254,7 +254,7 @@ html,body{
     border-radius: 1rem;
     line-height: 0.4rem;
     background-color: white;   
-    margin: 0.4rem auto;
+    margin: 0.6rem auto;
     position: relative;
 }
 .page_5 .box1 p{
