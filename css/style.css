@@ -193,7 +193,7 @@ html,body{
 	color: purple;
 	letter-spacing:0.1rem;
 	font-style: italic;
-	font-size: 0.5rem;
+	font-size: 0.8rem;
 	text-align: center;
 	line-height: 2rem;
 }
@@ -201,7 +201,7 @@ html,body{
 	width: 2rem;
 	height: 2rem;
 	position: absolute;
-	top:3rem;
+	top:3.5rem;
 	left:3rem;
 }
 .page_4 strong{
@@ -213,13 +213,13 @@ html,body{
 	color: blue;
     font-size: 0.5rem;
     position: absolute;
-    top:2rem;
+    top:2.5rem;
     left:1rem;
 }
 .page_4 .p8{
 	color: pink;
 	position: absolute;
-	top:3rem;
+	top:3.5rem;
     left:1rem;
 
 }
@@ -227,7 +227,7 @@ html,body{
 	color: orange;
     font-size: 0.5rem;
     position: absolute;
-    top:5rem;
+    top:5.5rem;
     left: 1rem;
 }
 .page_4 .p10{
@@ -235,7 +235,7 @@ html,body{
     font-size: 0.5rem;
     transform:rotate(-37deg); 
     position: absolute;
-     top: 3.2rem;
+     top: 3.7rem;
     left: 5.5rem;
 }
 /*第五页*/
