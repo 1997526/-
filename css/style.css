@@ -146,7 +146,7 @@ html,body{
 	font-size: 0.2rem;
 	font-weight: bold;
 	text-align:center;
-	line-height: 0.45rem;
+	line-height: 0.6rem;
 }
 .page_2 p:nth-child(2){
 	color:lime;
@@ -172,7 +172,7 @@ html,body{
 	color: blue;
 	font-size: 0.4rem;
    text-align: center;
-   margin-top: 0.8rem;
+   margin-top: 1rem;
 }
 .page_3 .h-2{
 	letter-spacing:0.1rem;
@@ -184,6 +184,7 @@ html,body{
 	float: left;
 	width: 2.9rem;
     height: 2rem;
+    margin-top:1rem;
     margin-left: 0.2rem;
 }
 /*第四页*/
